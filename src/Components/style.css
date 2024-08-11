@@ -1,0 +1,82 @@
+.user-card{
+   background-color: rgb(33, 33, 67);
+   width: 280px;
+   height: 300px;
+   border: none;
+   border-radius: 20px;
+   text-align: center;
+   margin: 20px;
+   padding-top: 60px;
+   
+}
+.user-card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    color: rgb(244, 148, 126);
+    background-color: rgb(251, 230, 205);
+}
+.user-card img{
+    border-radius: 40px;
+}
+
+.card-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../../../../../OneDrive/bootstrap/fe5f677b1627009c4b3e1c1c31dedf71.png);
+    background-repeat: no-repeat;
+}
+.sec1{
+    text-decoration: none;
+}
+.user-card h4{
+    Padding-top: 10px
+ }
+ .use{
+    background-color: cadetblue;
+    padding: 10px;
+    color: blanchedalmond;
+    font-style: italic;
+    font-size: 50px;
+ }
+ .use:hover{
+    color: brown;
+    transition: 1s;
+ }
+ .detail{
+    background-color: cadetblue;
+    padding: 10px;
+    color: blanchedalmond;
+    font-style: oblique;
+}
+.detail:hover{
+    color: rgb(241, 65, 65);
+    transition: 1s;
+}
+.avatar{
+    background-color: rgb(128, 162, 225);
+    height: 450px;
+    width: 500px;
+   border-radius: 30px;
+   padding: 30px;
+   padding-top: 70px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-left: 40px;
+   display: flex;
+   margin-top: 30px;
+   margin-left: 500px;
+}
+.elements h4,h2{
+
+    color: rgb(239, 207, 116);
+    font-style: italic;
+    padding-top: 4px;
+    padding-left: 30px;
+}
+.avatar1{
+    height: 190px;
+    border-radius: 60px;
+}
+
